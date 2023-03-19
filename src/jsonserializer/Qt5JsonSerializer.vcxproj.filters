@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="typeconverters\bitarrayconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\bytearrayconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\cborconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cborserializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\datetimeconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\enumconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="exceptioncontext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\gadgetconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\geomconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jsonserializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\legacygeomconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\listconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\localeconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\mapconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="metawriters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\multimapconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\objectconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\pairconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="serializerbase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\smartpointerconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\stdchronodurationconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\stdoptionalconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\stdtupleconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\stdvariantconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="typeconverters\versionnumberconverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\include\QtJsonSerializer\QtJsonSerializerDepends">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="typeconverters\bitarrayconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\bytearrayconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\cborconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="cborserializer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="cborserializer_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\datetimeconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\enumconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exception_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptioncontext_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\gadgetconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\geomconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="jsonserializer.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="jsonserializer_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\legacygeomconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\listconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\localeconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\mapconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="metawriters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="metawriters_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\multimapconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\objectconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\pairconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtjsonserializer_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qtjsonserializer_helpertypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="serializerbase.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="serializerbase_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\smartpointerconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\stdchronodurationconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\stdoptionalconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\stdtupleconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\stdvariantconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeextractors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="typeconverters\versionnumberconverter_p.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\QtJsonSerializer\QtJsonSerializerDepends.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    
+    
+    
+    
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QByteArray.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QByteArray.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QCborArray.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QCborArray.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QCborMap.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QCborMap.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QCborValue.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QCborValue.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QChar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QChar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QDate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QDate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QDateTime.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QDateTime.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QJsonArray.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QJsonArray.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QJsonObject.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QJsonObject.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QJsonValue.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QJsonValue.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QLine.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QLine.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QLineF.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QLineF.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QLocale.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QLocale.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QMimeType.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QMimeType.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QObject_.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QObject_.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QPoint.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QPoint.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QPointF.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QPointF.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QRect.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QRect.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QRectF.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QRectF.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QRegularExpression.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QRegularExpression.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QSize.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QSize.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QSizeF.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QSizeF.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QString.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QString.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QTime.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QTime.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QUrl.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QUrl.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QUuid.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QUuid.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_QVersionNumber.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_QVersionNumber.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_bool.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_bool.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_char.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_char.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_double.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_double.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_float.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_float.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_hook.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_hook.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_int.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_int.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_long.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_long.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_qlonglong.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_qlonglong.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_qulonglong.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_qulonglong.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_short.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_short.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_signed_char.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_signed_char.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_uchar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_uchar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_uint.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_uint.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_ulong.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_ulong.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\debug\qjsonconverterreg_ushort.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\.reggen\release\qjsonconverterreg_ushort.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\qjsonreggen.py">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="typesplit.pri">
+      <Filter>Distribution Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\Qt5JsonSerializer_resource.rc" />
+    <ResourceCompile Include="E:\work\dl_tools\github\QtJsonSerializer\QtJsonSerializer\src\jsonserializer\Qt5JsonSerializerd_resource.rc" />
+  </ItemGroup>
+</Project>
