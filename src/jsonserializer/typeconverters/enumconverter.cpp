@@ -104,12 +104,20 @@ QVariant EnumConverter::deserializeJson(int propertyType, const QCborValue &valu
 
 bool EnumConverter::testForEnum(int metaTypeId) const
 {
+	//edit by jjj do not use try catch throw
+#if QT_VERSION < QT_VERSION_CHECK(6, 0, 0)
+	const auto mo = QMetaType::metaObjectForType(metaTypeId);
+#else
+	const auto mo = QMetaType(metaTypeId).metaObject();
+#endif
+	return mo;
+	/*
 	try {
 		getEnum(metaTypeId, true);
 		return true;
 	} catch (Exception &) {
 		return false;
-	}
+	}*/
 }
 
 QMetaEnum EnumConverter::getEnum(int metaTypeId, bool ser) const

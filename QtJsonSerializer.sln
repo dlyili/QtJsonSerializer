@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5JsonSerializer", "src\jsonserializer\Qt5JsonSerializer.vcxproj", "{17BEC49E-3613-39E0-9A34-92A8F3038453}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample", "examples\jsonserializer\Sample\Sample.vcxproj", "{594F8962-5E31-3699-AC17-E242B0B13557}"
+	ProjectSection(ProjectDependencies) = postProject
+		{17BEC49E-3613-39E0-9A34-92A8F3038453} = {17BEC49E-3613-39E0-9A34-92A8F3038453}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

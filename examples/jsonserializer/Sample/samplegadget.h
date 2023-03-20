@@ -9,12 +9,14 @@ class SampleGadget
 {
 	Q_GADGET
 
+	Q_PROPERTY(int nId MEMBER nId)
 	Q_PROPERTY(QPoint base MEMBER base)
 	Q_PROPERTY(QJsonObject rawData MEMBER rawData)
 
 public:
 	SampleGadget();
 
+	int nId = 10;
 	QPoint base;
 	QJsonObject rawData;
 
