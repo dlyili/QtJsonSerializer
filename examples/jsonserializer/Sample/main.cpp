@@ -12,6 +12,7 @@ int main(int argc, char *argv[])
 	QCoreApplication a(argc, argv);
 
 	//to actually work polymorphic, we must register:
+	//qRegisterMetaType<SampleObject*>();
 	qRegisterMetaType<SuperSampleObject*>();
 	qRegisterMetaType<SampleObject::SuperFlags>("SuperFlags");
 

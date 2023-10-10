@@ -29,7 +29,7 @@ public:
 
 	int id = 0;
 	QString title;
-	SuperFlags flags = nullptr;
+	SuperFlags flags = ValueA;
 	QList<double> scores;
 	SampleObject *child = nullptr;
 	SampleGadget gadget;
