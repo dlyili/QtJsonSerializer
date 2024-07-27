@@ -42,9 +42,9 @@ public:
 	PropertyTrace propertyTrace() const;
 
 	//! @inherit{QException::raise}
-	virtual void raise() const override;
+	virtual void raise() const /*override*/;
 	//! @inherit{QException::clone}
-	virtual ExceptionBase *clone() const override;
+	virtual ExceptionBase *clone() const /*override*/;
 
 protected:
 	//! @private

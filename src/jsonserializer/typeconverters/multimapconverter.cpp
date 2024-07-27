@@ -4,6 +4,7 @@
 
 #include <QtCore/QJsonObject>
 #include <QtCore/QJsonArray>
+#include <QAssociativeIterable>
 using namespace QtJsonSerializer;
 using namespace QtJsonSerializer::TypeConverters;
 using namespace QtJsonSerializer::MetaWriters;

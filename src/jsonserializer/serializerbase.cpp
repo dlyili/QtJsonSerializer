@@ -36,7 +36,9 @@ using namespace QtJsonSerializer::TypeConverters;
 #ifndef NO_REGISTER_JSON_CONVERTERS
 namespace {
 void qtJsonSerializerRegisterTypes() {
+#ifdef Q_OS_WIN
 	QtJsonSerializer::registerTypes();
+#endif
 }
 }
 Q_COREAPP_STARTUP_FUNCTION(qtJsonSerializerRegisterTypes);
@@ -462,7 +464,7 @@ QSharedPointer<TypeConverter> SerializerBasePrivate::findSerConverter(int proper
 
 	// third: check if the list of explicit converters has a matching one
 	QReadLocker cLocker{&typeConverters.lock};
-	for (const auto &converter : qAsConst(typeConverters.store)) {
+	for (const auto &converter : /*qAsConst(*/typeConverters.store/*)*/) {
 		if (converter && converter->canConvert(propertyType)) {
 			qCDebug(logSerializer) << "Found and cached serialization converter" << converter->name()
 								   << "for type:" <<  QMetaTypeName(propertyType);
@@ -511,7 +513,7 @@ QSharedPointer<TypeConverter> SerializerBasePrivate::findDeserConverter(int &pro
 	QReadLocker cLocker{&typeConverters.lock};
 	auto throwWrongTag = false;
 	std::optional<std::pair<QSharedPointer<TypeConverter>, int>> guessConverter;
-	for (const auto &converter : qAsConst(typeConverters.store)) {
+	for (const auto &converter : /*qAsConst(*/typeConverters.store/*)*/) {
 		if (converter) {
 			auto testType = propertyType;
 			switch (converter->canDeserialize(testType, tag, type)) {

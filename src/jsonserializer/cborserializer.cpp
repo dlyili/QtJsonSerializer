@@ -6,6 +6,7 @@
 #include <QtCore/QCborStreamReader>
 #include <QtCore/QCborStreamWriter>
 #include <QtCore/QtEndian>
+#include <QtCore/QIODevice>
 using namespace QtJsonSerializer;
 
 Q_LOGGING_CATEGORY(QtJsonSerializer::logCbor, "qt.jsonserializer.serializer.cbor")
