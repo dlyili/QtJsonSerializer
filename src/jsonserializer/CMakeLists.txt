@@ -56,7 +56,9 @@ qt_internal_add_module(JsonSerializer
 	      typeconverters/stdtupleconverter.cpp
 	      typeconverters/stdvariantconverter.cpp
 	      typeconverters/versionnumberconverter.cpp
-
+	      
+    DEFINES
+        NO_REGISTER_JSON_CONVERTERS
     LIBRARIES
         Qt::CorePrivate
     PUBLIC_LIBRARIES
@@ -66,6 +68,7 @@ qt_internal_add_module(JsonSerializer
     GENERATE_CPP_EXPORTS
 )
 
+if (UNIX)
 set_source_files_properties(cborserializer.cpp COMPILE_FLAGS "-fexceptions")
 set_source_files_properties(exception.cpp COMPILE_FLAGS "-fexceptions")
 set_source_files_properties(jsonserializer.cpp COMPILE_FLAGS "-fexceptions")
@@ -89,3 +92,4 @@ set_source_files_properties(typeconverters/stdoptionalconverter.cpp COMPILE_FLAG
 set_source_files_properties(typeconverters/stdtupleconverter.cpp COMPILE_FLAGS "-fexceptions")
 set_source_files_properties(typeconverters/stdvariantconverter.cpp COMPILE_FLAGS "-fexceptions")
 set_source_files_properties(typeconverters/versionnumberconverter.cpp COMPILE_FLAGS "-fexceptions")
+endif()

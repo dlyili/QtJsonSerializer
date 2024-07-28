@@ -36,9 +36,7 @@ using namespace QtJsonSerializer::TypeConverters;
 #ifndef NO_REGISTER_JSON_CONVERTERS
 namespace {
 void qtJsonSerializerRegisterTypes() {
-#ifdef Q_OS_WIN
 	QtJsonSerializer::registerTypes();
-#endif
 }
 }
 Q_COREAPP_STARTUP_FUNCTION(qtJsonSerializerRegisterTypes);
