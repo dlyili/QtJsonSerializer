@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	gadget.rawData = QJsonObject({
 									 {QStringLiteral("someData"), false}
 								 });
-	auto json = serializer.serialize(gadget);
+	QJsonObject json = serializer.serialize(gadget);
 	qDebug() << JSON_PRINT(json);
 
 	qDebug() << "\nAnd deserializing data back:";
